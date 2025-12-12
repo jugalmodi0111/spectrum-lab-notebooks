@@ -62,3 +62,39 @@ Q5 expects a trained multi-task checkpoint.
 
 - The notebooks are written to run on CPU/CUDA/Apple Silicon (MPS) where available.
 - Outputs (`outputs/`, `results/`) are ignored by git.
+
+## Project card (optional)
+
+If you want the GitHub repo to look great at a glance, add a couple of screenshots:
+
+1. Run the notebook cells to produce plots/results.
+2. Export a notebook to HTML and screenshot the key figures.
+
+Example export:
+
+```bash
+jupyter nbconvert --to html Q2.ipynb
+jupyter nbconvert --to html Q3.ipynb
+```
+
+Suggested screenshots to include (if available):
+
+- **Q2:** training curves + segmentation overlay predictions
+- **Q3:** distance histogram/SDR plot + qualitative fovea localization examples
+- **Q5:** Gradio UI showing a sample prediction
+
+Place images under `docs/` (e.g., `docs/q2_results.png`) and link them here once added.
+
+Template (uncomment after you add the files):
+
+<!--
+### Screenshots
+
+![Q2 training curves](docs/q2_training_curves.png)
+![Q2 predictions](docs/q2_predictions.png)
+
+![Q3 SDR curve](docs/q3_sdr_curve.png)
+![Q3 examples](docs/q3_examples.png)
+
+![Q5 Gradio UI](docs/q5_gradio_ui.png)
+-->
