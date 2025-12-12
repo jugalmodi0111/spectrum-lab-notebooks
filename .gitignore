@@ -1,0 +1,23 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+
+# Gradio local state
+.gradio/
+
+# Data / artifacts
+data/
+outputs/
+results/
+Archive.zip
+
+# Model weights (keep out of git by default)
+*.pth
+*.pt
+
+# Jupyter exports
+*.html
