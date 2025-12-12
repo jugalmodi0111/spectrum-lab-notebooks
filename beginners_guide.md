@@ -147,11 +147,11 @@ Labs build progressively from data to deployment.
 
 ```mermaid
 flowchart LR
-    A[Select Lab Notebook] --> B[Load Data & Preprocess]
-    B --> C[Build/Train Model]
-    C --> D[Evaluate Metrics]
-    D --> E[Visualize Results]
-    E --> F[Deploy (Q5) or Secure (Q4)]
+    A["Select Lab Notebook"] --> B["Load Data & Preprocess"]
+    B --> C["Build/Train Model"]
+    C --> D["Evaluate Metrics"]
+    D --> E["Visualize Results"]
+    E --> F["Deploy (Q5) or Secure (Q4)"]
 ```
 
 ### 5.2 Lab Progression
