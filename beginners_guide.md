@@ -174,10 +174,10 @@ Loads and preprocesses the 100-class image dataset.
 
 ```mermaid
 flowchart TD
-    A[Download CIFAR-100] --> B[Normalize (mean/std)]
-    B --> C[Augment: RandomCrop, Flip]
-    C --> D[DataLoader: Batch=32]
-    D --> E[Split: 80/20 Train/Val]
+    A["Download CIFAR-100"] --> B["Normalize (mean/std)"]
+    B --> C["Augment: RandomCrop, Flip"]
+    C --> D["DataLoader: Batch=32"]
+    D --> E["Split: 80/20 Train/Val"]
 ```
 
 ### 6.2 Q2: IDRiD Optic Disc Segmentation
